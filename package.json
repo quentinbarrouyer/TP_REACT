@@ -5,7 +5,8 @@
   "main": "jest.config.js",
   "directories": {
     "doc": "docs"
-  },"scripts": {
+  },
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --mode development"
   },
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/quentinbarrouyer/TP_REACT#readme",
   "devDependencies": {
+    "live-server": "^1.2.2",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1"
   }
