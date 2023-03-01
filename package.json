@@ -8,8 +8,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack --mode development"
-  },
+    "dev": "webpack --mode development",
+    "serve": "live-server --entry-file=./index.html"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/quentinbarrouyer/TP_REACT.git"
