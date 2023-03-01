@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import TaskForm from "./TaskForm.js";
-
+import { Link } from "react-router-dom";
 
 // Notez bien ici à quel point le composant TodoList est devenu
 // simple et clair. Il ne gère plus d'état par lui même et ne fait
@@ -19,6 +19,8 @@ const TodoList = (props) => {
                         onChange={() => props.onTaskToggle(item.id)}
                     />
                     {item.text}
+
+                    <Link to={item.id + "/details"}>Details</Link>
                 </label>
             </li>)}
         </ul>
